@@ -18,7 +18,7 @@ def show_image(img: torch.Tensor, size: [int, int]):
 #import bilder
 import cv2
 
-image: np.ndarray = cv2.imread('/data/project/retina/RIADD/all_cropped_margins/RIADD2.png')
+image: np.ndarray = cv2.imread('/data/project/retina/RIADD/all_cropped_margins/RIADD2.png') #maybe cv2.imread('/data/project/retina/RIADD/all_cropped_margins/RIADD2.png', 1) ==cv2.IMREAD_COLOR('...')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 img: torch.Tensor = K.image_to_tensor(image, keepdim=False)
