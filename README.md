@@ -8,19 +8,23 @@ start
 
 *T = transform_list1 , T' = transform_list2*
 
-- [ ] Pipeline from paper (*parameters listed in Slack*)
+- [x] Pipeline from paper (*parameters listed in Slack*)
 
 - [ ] Solarize Pipeline
-  - [ ] T = 0.2 , T' = 0
+  - [x] T = 0.2 , T' = 0
   - [ ] T = 0.5 , T' = 0
 
 - [ ] Posterize Pipeline
-  - [ ] T = 0.2 , T' = 0
+  - [x] T = 0.2 , T' = 0
   - [ ] T = 0.5 , T' = 0
 
-- [ ] Only Vertical Flip Pipeline
+- [x] Only Vertical Flip Pipeline
 
 
 ## Run Pipelines
 
 - [ ] train_selfsupervised.py , *started:*
+- [ ] train_selfsupervised_paper.py , *started:*
+- [ ] solarize02.py , *started:*
+- [ ] posterize02.py , *started:*
+- [ ] vertical.py , *started:*
