@@ -28,3 +28,12 @@ start
 - [ ] solarize02.py , *started:*
 - [ ] posterize02.py , *started:*
 - [ ] vertical.py , *started:*
+
+
+##Image preprossing 
+Git-Hub Links : 
+https://github.com/linchundan88/Fundus-image-preprocessing
+
+Papers : 
+
+
