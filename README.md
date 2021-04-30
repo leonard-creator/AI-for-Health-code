@@ -23,8 +23,8 @@ start
 
 ## Run Pipelines
 
-- [ ] train_selfsupervised.py , *started:*
-- [ ] train_selfsupervised_paper.py , *started:*
+- [x] train_supervised_baseline.py , *started:*
+- [x] train_selfsupervised_paper.py , *started:*
 - [ ] solarize02.py , *started:*
 - [ ] posterize02.py , *started:*
 - [ ] vertical.py , *started:*
