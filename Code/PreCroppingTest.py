@@ -60,7 +60,7 @@ def cheapMask(filename, outdir, dict):
     retina = ret[:, :, 0]  # gray
     # retina = color.rgb2gray(ret)
 
-    mask = retina < 20  # detect all nearly black arreas
+    mask = retina < 10  # detect all nearly black arreas
 
     ret[mask] = 0  # choose value vor masked points
     if mask.sum() <= 420000:
